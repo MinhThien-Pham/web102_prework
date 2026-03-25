@@ -4,7 +4,7 @@ Submitted by: **Minh Thien Pham**
 
 **Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **1.5** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Required Features
 
@@ -23,9 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/ICuOeGo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
-
-![Video Walkthrough](https://i.imgur.com/ICuOeGo.gif)
+<img src='./assets/walkthrough.gif?raw=true' title='Video Walkthrough' alt='Video Walkthrough'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -39,6 +37,8 @@ GIF created with **ScreenToGif**
 ## Notes
 
 One challenge I ran into was calculating and displaying summary values correctly from the game data. I initially mixed up which totals to show in the description sentence, then fixed it by using the total amount raised for dollars and the total number of games for the game count.
+
+One challenge I ran into was adding the GIF walkthrough to the README. I first used an Imgur link, but it was not displaying correctly on GitHub. I looked into the issue and read a Stack Overflow discussion about GitHub sometimes having trouble with larger external GIFs, so I decided to store the GIF locally in the repo and link it with a relative path instead. That ended up working much better.
 
 ## License
 
